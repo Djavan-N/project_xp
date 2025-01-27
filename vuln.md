@@ -13,26 +13,32 @@ To address this critical issue, I implemented a two-pronged approach to enhance 
 **Dependency Checking Service Integration**: Deployed a dependency checking service and integrated it directly into our CI/CD pipeline. This service systematically scans our codebase for known vulnerabilities in dependencies upon each commit, ensuring that any newly introduced or existing vulnerabilities are promptly identified.
 
 **AWS Config Activation**: Enabled AWS Config to conduct a thorough configuration and compliance audit across our AWS accounts. This tool provided valuable insights into several security issues, including:
-        Detection of inline policies that could circumvent standard security protocols.
-        Identification of accounts not enforcing Multi-Factor Authentication (MFA), a critical security best practice.
-        Assessment of our IAM roles and policies for non-conformity to our organization's security standards.
+* Detection of inline policies that could circumvent standard security protocols.
+* Identification of accounts not enforcing Multi-Factor Authentication (MFA), a critical security best practice. 
+* Assessment of our IAM roles and policies for non-conformity to our organization's security standards.
 
 ### Impact
 
 The deployment of the dependency checking service and the activation of AWS Config significantly improved our security operations by providing:
 
- **Real-Time Vulnerability Insights**: Continuous visibility into vulnerabilities allowed for immediate remediation actions, significantly reducing the window of exposure to potential security threats.
-    Enhanced Security Posture: Addressing configuration and compliance issues across our AWS infrastructure ensured that our security measures are robust and conform to best practices.
-    Cost-Effective Solution: This approach provided a low-cost yet highly effective method to safeguard our assets, demonstrating significant ROI in terms of security enhancements relative to the investment.
+* **Real-Time Vulnerability Insights**: Continuous visibility into vulnerabilities allowed for immediate remediation actions, significantly reducing the window of exposure to potential security threats.
+
+* **Enhanced Security Posture**: Addressing configuration and compliance issues across our AWS infrastructure ensured that our security measures are robust and conform to best practices.
+
+* **Cost-Effective Solution**: This approach provided a low-cost yet highly effective method to safeguard our assets, demonstrating significant ROI in terms of security enhancements relative to the investment.
+
+* **Enhanced Security Posture**: Addressing configuration and compliance issues across our AWS infrastructure ensured that our security measures are robust and conform to best practices.
+
+* **Cost-Effective Solution**: This approach provided a low-cost yet highly effective method to safeguard our assets, demonstrating significant ROI in terms of security enhancements relative to the investment.
 
 ### Challenges 
 
 **Long List of Issues**:
 
-It appeared this sort of assessment had not been conducted in a long time. So the list of vulnerabilities was very long, with several Critical and High rated issues discovered. The developer teams did not have the capacity to go through the list and determine which of their services is affected and apply mitgation reccomendations.
+* The initial vulnerability assessment revealed a lengthy list of issues, with several rated as Critical and High. The developer teams lacked the capacity to review the list comprehensively and determine which services were affected and required mitigation recommendations.
 
 ### Resolutions
 
 **Long List of Issues**:
 
-To make it easier, I went through the Critical and High rated issues, spent the time to gain context on the affect service and determined if an immediate fix was needed or that it was a false positive. This activity significantly reduced the issues that actually needed fixes vs ones that weren't applicable. I outlined the data gathred in documentation to shared with leadership and developers and was able to get agreement to fix certain issues.
+* To manage this challenge, I prioritized and reviewed the Critical and High-rated issues, spending time to understand the context of the affected services and determining whether immediate fixes were necessary or if they were false positives. This process significantly reduced the number of issues that actually required fixes versus those that were not applicable. I documented the findings and shared them with leadership and developers, securing agreement on which issues to address.
