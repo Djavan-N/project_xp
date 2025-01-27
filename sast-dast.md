@@ -23,4 +23,8 @@ The integration of the SAST tool significantly enhanced our security posture by 
 
 ### Challenges 
 
+**Priotization of Issues**:
+
 ### Resolutions
+
+**Priotization of Issues**:

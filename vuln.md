@@ -27,4 +27,8 @@ The deployment of the dependency checking service and the activation of AWS Conf
 
 ### Challenges 
 
+**Long List of Issues**:
+
 ### Resolutions
+
+**Long List of Issues**:

@@ -28,8 +28,8 @@ This project significantly bolstered the security of our application by mitigati
 
 ### Challenges 
 
-**Existing API and Handlers**:
+**Existing API and Handlers**: The logic for the exist route structure and valdation of legacy tokens did not work well with the new solution. This is because current validation logic had conflicts that prevented validating both new and legacy tokens.
 
 ### Resolutions
 
-**This**
+**Existing API and Handlers**: I created separate routes and validation logic unique to the new tokens. This made it so when legacy tokens are sunset, it would limit the need to refactor code. 

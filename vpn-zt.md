@@ -25,4 +25,8 @@ This transition to a Zero Trust model significantly improved the security and re
 
 ### Challenges 
 
+**Timelines**: The turnaround time for this project was expected to be about 2 months. There was no documentation regarding desired design or current design.
+
 ### Resolutions
+
+**Timelines**: I prirotized this project at max level due to impact on users. I worked on implementation locally and ensured I had a working product prior to deploying in our test environment. Once the solution was working in the testing environment, I began production developement. After deployment, I spent the time to create documentation on the entire process. Such as, managing the certificate chaing for mTLS, distribution of certs, visual flow diagrams for peer review. 
