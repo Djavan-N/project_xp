@@ -1,4 +1,4 @@
-# Projects
+# Project
 
 ## JWT Refactor
 
