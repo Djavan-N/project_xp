@@ -29,6 +29,10 @@ The deployment of the dependency checking service and the activation of AWS Conf
 
 **Long List of Issues**:
 
+It appeared this sort of assessment had not been conducted in a long time. So the list of vulnerabilities was very long, with several Critical and High rated issues discovered. The developer teams did not have the capacity to go through the list and determine which of their services is affected and apply mitgation reccomendations.
+
 ### Resolutions
 
 **Long List of Issues**:
+
+To make it easier, I went through the Critical and High rated issues, spent the time to gain context on the affect service and determined if an immediate fix was needed or that it was a false positive. This activity significantly reduced the issues that actually needed fixes vs ones that weren't applicable. I outlined the data gathred in documentation to shared with leadership and developers and was able to get agreement to fix certain issues.
