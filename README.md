@@ -61,7 +61,7 @@ Integrated dependecy checking our libraries and enabled AWS Config to identify v
 ### Impact
 Identified high risk vulnerabilities present and recommended solutions to mitigate risk
 
-## [Internal Penettration Test](pentest.md)
+## [Internal Penetration Test](pentest.md)
 
 ### Problem Statement
 A pentest of our assets had not been conducted in nearly 6 years
