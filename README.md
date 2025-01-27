@@ -48,3 +48,13 @@ Reduced the risk of vulnerabilities in production, enhancing the security postur
 
 ---
 
+## [Vulnerability Assessment](vuln.md)
+
+### Problem Statement
+Lacked visibilty into current vulnerability landscape for our assets
+
+### Solution
+Integrated dependecy checking our libraries and enabled AWS Config to identify vulnerabilities.
+
+### Impact
+Identified high risk vulnerabilities present and recommended solutions to mitigate risk
