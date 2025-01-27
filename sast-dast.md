@@ -20,3 +20,7 @@ To address this vulnerability, I spearheaded the integration of a Static Applica
 
 ### Impact
 The integration of the SAST tool significantly enhanced our security posture by embedding automated, real-time security checks into our development pipeline. This proactive approach has substantially reduced the risk of introducing new vulnerabilities into production, thereby safeguarding our application and enhancing trust with our users. The project demonstrated a strong commitment to security and operational excellence, aligning with industry best practices for secure software development.
+
+### Challenges 
+
+### Resolutions

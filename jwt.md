@@ -25,3 +25,11 @@ To enhance security and comply with best practices, I led the initiative to refa
 ### Impact
 
 This project significantly bolstered the security of our application by mitigating the risks associated with token compromise. The new system not only enhances user trust but also aligns our authentication practices with industry standards.
+
+### Challenges 
+
+**Existing API and Handlers**:
+
+### Resolutions
+
+**This**

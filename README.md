@@ -6,6 +6,8 @@ This repository serves as a collection of key projects I have led or contributed
 - [JWT Refactor](jwt.md)
 - [Zero Trust to Replace VPN](vpn-zt.md)
 - [SAST Integration](sast-dast.md)
+- [Vulnerability Assessment](vuln.md)
+- [Internal Pentest](pentest.md)
 
 ---
 
@@ -58,3 +60,14 @@ Integrated dependecy checking our libraries and enabled AWS Config to identify v
 
 ### Impact
 Identified high risk vulnerabilities present and recommended solutions to mitigate risk
+
+## [Internal Penettration Test](pentest.md)
+
+### Problem Statement
+A pentest of our assets had not been conducted in nearly 6 years
+
+### Solution
+Conduct a pentest, outline methodology, deliverables and provide recommendations
+
+### Impact
+Identified low, medium and high issues from the test and drove development teams to fix higher risk issues within a week.

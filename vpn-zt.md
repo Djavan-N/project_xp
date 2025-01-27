@@ -22,3 +22,7 @@ To address these challenges, I spearheaded the development of a more robust and 
 ### Impact
 
 This transition to a Zero Trust model significantly improved the security and reliability of access to critical administrative applications. By eliminating the VPN and implementing a dual-authentication mechanism, the solution not only reduced user frustration due to connectivity issues but also enhanced our overall security posture. This project demonstrates a successful application of modern security practices to improve operational efficiency and user satisfaction.
+
+### Challenges 
+
+### Resolutions

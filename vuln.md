@@ -24,3 +24,7 @@ The deployment of the dependency checking service and the activation of AWS Conf
  **Real-Time Vulnerability Insights**: Continuous visibility into vulnerabilities allowed for immediate remediation actions, significantly reducing the window of exposure to potential security threats.
     Enhanced Security Posture: Addressing configuration and compliance issues across our AWS infrastructure ensured that our security measures are robust and conform to best practices.
     Cost-Effective Solution: This approach provided a low-cost yet highly effective method to safeguard our assets, demonstrating significant ROI in terms of security enhancements relative to the investment.
+
+### Challenges 
+
+### Resolutions
