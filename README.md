@@ -1,6 +1,6 @@
 # Project Portfolio
 
-This repository serves as a collection of key projects I have led or contributed to significantly, showcasing my skills and experiences in software development, security, and DevOps practices. Below are detailed descriptions of some standout projects.
+This repository serves as a collection of key projects I have led or contributed to significantly, showcasing my skills and experiences in software development, security, and DevOps practices. Below are detailed descriptions of some standout projects. Click the links to see more details.
 
 ## Table of Contents
 - [JWT Refactor](jwt.md)
